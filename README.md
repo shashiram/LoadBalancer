@@ -1,6 +1,6 @@
 # Load Balancer System
 
-A high-performance, concurrent load balancer designed for 10 servers with multiple load balancing strategies and comprehensive monitoring.
+A high-performance, concurrent load balancer designed for 10 servers with multiple load balancing strategies.
 
 ## Features
 
