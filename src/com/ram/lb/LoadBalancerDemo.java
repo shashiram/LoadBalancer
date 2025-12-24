@@ -1,7 +1,6 @@
 package com.ram.lb;
 
 import com.ram.lb.algo.LoadBalancingAlgo;
-import com.ram.lb.algo.RandomLoadBalancingAlgo;
 import com.ram.lb.algo.RoundRobinBalancingAlgo;
 import com.ram.lb.model.Server;
 
@@ -10,7 +9,6 @@ public class LoadBalancerDemo {
 
         // chose load balancing algo
         LoadBalancingAlgo loadBalancingAlgo=new RoundRobinBalancingAlgo();
-
         LoadBalancer loadBalancer=new LoadBalancer(loadBalancingAlgo);
 
         for (int i = 1; i <=10 ; i++) {

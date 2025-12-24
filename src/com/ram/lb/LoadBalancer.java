@@ -4,7 +4,6 @@ package com.ram.lb;
 import com.ram.lb.algo.LoadBalancingAlgo;
 import com.ram.lb.exception.MaxCapacityExceededException;
 import com.ram.lb.model.Server;
-
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.locks.ReentrantReadWriteLock;

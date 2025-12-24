@@ -1,6 +1,5 @@
 package com.ram.lb.algo;
 
-import com.ram.lb.LoadBalancer;
 import com.ram.lb.model.Server;
 
 import java.util.List;

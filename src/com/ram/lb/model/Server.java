@@ -5,7 +5,6 @@ public class Server {
     private final String name;
     private final String ipAddress;
     private final int port;
-
     public Server(String id, String name, String ipAddress, int port) {
         this.id = id;
         this.name = name;
